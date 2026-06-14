@@ -1,0 +1,18 @@
+{
+  "_comment": "PLACEHOLDER thresholds for StackCube-v1. Replace with calibrated values from `python -m teemo.calibrate_thresholds` once you have success demos. The placeholder values come from the StackCube workspace scale (cube_half_size=0.02, ~10cm reach) and the rule layout in teemo/calibrate_thresholds.py. All length units are meters; angles enter alignment via lambda_rot=0.05.",
+  "k_window": 5,
+  "lambda_rot": 0.05,
+  "distance_edges": [0.025, 0.05, 0.10, 0.20],
+  "height_edges": [-0.10, -0.02, 0.02, 0.10],
+  "align_edges": [0.02, 0.05, 0.10, 0.20],
+  "aperture_edges": [-0.03, -0.005, 0.005, 0.03],
+  "deadband_distance": 0.004,
+  "deadband_height": 0.003,
+  "deadband_align": 0.005,
+  "deadband_aperture": 0.002,
+  "speed_distance": [0.005, 0.02],
+  "speed_height": [0.005, 0.02],
+  "speed_align": [0.01, 0.04],
+  "speed_aperture": [0.002, 0.008],
+  "contact_force_eps": 0.001
+}
